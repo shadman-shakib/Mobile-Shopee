@@ -1,7 +1,9 @@
-$(document).ready(function(){
-    //owl carousel
-    $("#banner-area.owl-carousel").owlCarousel({
-        dots:true,
-        items:1
-    });
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
 });
